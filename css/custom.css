@@ -1,35 +1,98 @@
+h1 {
+    color: #FCF6DF;
+}
+
+h2 {
+    color: #CFA731;
+}
+
+h5 {
+    color: #4e2e1f;
+}
+
+.p {
+    color: #4e2e1f;
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
 }
+
 header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+
+.card {
+    background-color: #FCF6DF;
+}
+
 .card img {
     height: 200px;
     object-fit: cover;
 }
+
 footer {
     background-color: #4e2e1f;
 }
+
 .bg-brown {
-    background-color: #4e2e1f; 
+    background-color: #4e2e1f;
 }
+
 .hero h1 {
     font-size: 2rem;
-    font-weight: 700; 
+    font-weight: 700;
 }
-.hero p.lead { 
+
+.hero p.lead {
     font-size: 1.25rem;
 }
+
 .accordion-button {
-    font-weight: 500; 
+    font-weight: 500;
 }
+
 .testimonials img {
-    width: 80px; height: 80px; object-fit: cover;
-    }
-.btn-danger{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.btn-danger {
     background-color: #E15D59;
 }
-.h1{
-    color: #CFA731;
+
+.custom-btn {
+    border-color: #E15D59;
+    color: #E15D59;
+}
+
+.custom-btn:hover {
+    background-color: #E15D59;
+    color: #fff;
+}
+
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #E15D59;
+}
+
+.carousel-indicators .active,
+.carousel-indicators li {
+    background-color: #E15D59;
 }
